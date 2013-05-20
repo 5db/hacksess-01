@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">hacksess-01</string>
+    <string name="edit_message">Start new activity</string>
+    <string name="button_send">Send</string>
 </resources>
