@@ -3,4 +3,5 @@
     <string name="app_name">hacksess-01</string>
     <string name="edit_message">Start new activity</string>
     <string name="button_send">Send</string>
+    <string name="secondActivity">I\'m Second Activity</string>
 </resources>

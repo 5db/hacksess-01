@@ -1,7 +1,9 @@
 package com.example.hacksess_01;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 public class MyActivity extends Activity
 {
@@ -11,5 +13,15 @@ public class MyActivity extends Activity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+    }
+
+    /**
+     * On click handler for the UI button
+     *
+     * @param view
+     */
+    public void openSecondActivity(View view) {
+        Intent intent = new Intent(this, SecondActivity.class);
+        startActivity(intent);
     }
 }
